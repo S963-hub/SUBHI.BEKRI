@@ -10,7 +10,7 @@
 }
 /******************* Ana sayfa *****************/
 header{
-background-color: aliceblue;
+background-color: rgb(0, 0, 0);
 width: 100%;
 position: fixed;
 z-index:999;
@@ -39,7 +39,7 @@ font-size: 1.8em;
 color: #601cfc;
 
 }
-section{
+.menu{
     padding: 100px 50px;
     width: 100%;
 min-height: 100vh;
@@ -183,22 +183,112 @@ padding: 5px;
 }
 
 .p3{
-    padding-top: 10px;
-    padding-left: 30px;
-    color: #969595;
-    margin-bottom: -5px;
-
-
+padding-top: 10px;
+padding-left: 30px;
+color: #969595;
+margin-bottom: -5px;
 }
-
 .p4{
 padding-top: 10px;
 padding-left: 10px;
 color: #969595;
-    margin-bottom: -5px;
+margin-bottom: -5px;
 }
+/********************** Şehrim sayfası*************************/
 
+
+.halep-resim{
+    padding-top: 100px;
+    padding-left: 15px;
+    height: auto;
+    }
+    .container {
+    margin-bottom:  10px; 
+    display: flex; 
     
+    }
+    .genel {
+    font-size: 1.13em;
+    background-color: #F4F9F9;
+    border: 2px solid #0079fb;
+    margin-top: 99px;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+    .baslik1 {
+        font-size: 3em;
+        text-transform: uppercase;
+        display: inline-flex;
+        padding-left: 200px;
+        
+    }
+    .paragraf1{
+        background-color: #7cb2ed;
+        padding-left: 10px;
+    }
+    .container2{
+        display: flex; 
+    padding-top: 0%;
+    padding-left: 50px;
+    }
+    .genel2{
+        font-size: 1.13em;
+    background-color: #F4F9F9;
+    border: 2px solid #0079fb;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+    .halep-resim2{
+        border: 2px solid #0079fb;
+        margin-top: 10px;
+        height: 200px;
+        justify-content: space-between
+    }
+    .baslik2{
+    
+        font-size: 3em;
+        text-transform: uppercase;
+        display: inline-flex;
+    }
+    .container3{
+        display: flex;
+    padding-left: 15px;
+    }
+    .baslik3{
+        font-size: 3em;
+        text-transform: uppercase;
+        display: inline-flex;
+        padding-left:  600px;
+        padding-top: 10px;
+    }
+    .container4{
+    padding-left: 50px;
+    }
+    .paragraf2{
+        background-color: #7cb2ed;
+        padding-left: 10px;
+       
+    }
+    .basliklar{
+    margin-top: 30px;
+    }
+    .Copyrigts{
+        margin-top: 10px;
+        background-color: #151b29;
+        color: #fff;
+        display: flex;
+        font-size: 1em;
+    }
+
+  
+   
+   
+
+
+
+
+
     
  
 
