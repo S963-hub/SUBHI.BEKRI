@@ -40,10 +40,11 @@ font-size: 1.8em;
 color: #601cfc;
 
 }
+
 .menu{
     padding: 100px 50px;
     width: 100%;
-min-height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     background:  url(images/background.jpg) no-repeat ;
@@ -173,7 +174,7 @@ float: left;
 padding: 20px;
 }
 
- .head1{
+.head1{
 font-size: 20px;
 text-transform: uppercase;
 font-weight: 600;
@@ -201,7 +202,7 @@ color: #969595;
 }
 
 
-/********************** Şehrim sayfası*************************/
+/********************** Şehrim sayfası *************************/
 
 
 .halep-resim{
@@ -288,20 +289,20 @@ color: #969595;
         font-size: 1em;
     }
 
-    /**********************Giriş formu*******************************/
+    /***************************Giriş sayfası*******************************/
   
   
 
 .meee{
    
-    
-    
+    background:  url(images/giris-image.jpg) no-repeat ;
+    background-size: cover;
+    background-position: center;
+    height: 783px;
 }
 
 .giriş-form {
-   background:  url(images/background.jpg) no-repeat ;
-    background-size: cover;
-    background-position: center;
+    
     width: 400px;
     margin-left: 600px;
     padding: 20px;
@@ -328,7 +329,7 @@ h2 {
     color: #666;
 }
 
-button.btn {
+.btn {
     width: 100%;
     padding: 10px;
     background-color: #0a49f6;
@@ -340,12 +341,12 @@ button.btn {
     transition: background-color 0.3s ease;
 }
 
-button.btn a {
+.btn  {
     text-decoration: none;
     color: white;
 }
 
-button.btn:hover {
+.btn:hover {
     background-color: #45a049;
 }
 
@@ -353,4 +354,9 @@ p.liw {
     margin-top: 10px;
     font-size: 14px;
     color: #666;
+}
+.buton9{
+
+color: #151b29;
+
 }
