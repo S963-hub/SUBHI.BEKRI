@@ -10,7 +10,7 @@
 }
 /******************* Ana sayfa *****************/
 header{
-background-color: rgb(0, 0, 0);
+background-color: aliceblue;
 width: 100%;
 position: fixed;
 z-index:999;
@@ -27,7 +27,8 @@ font-weight: 700;
 font-size: 1.8em;
 }
 
-.nav a{
+.nav a{ 
+    
     text-decoration:none;
     color: #3a6cf4;
     font-weight: 500;
@@ -113,6 +114,7 @@ clear: both;
     width: 850px;
     background-color: white;
     box-shadow: 5px 7px 15px 5px #0a49f6;
+
 }
 
 .sec{
@@ -183,17 +185,22 @@ padding: 5px;
 }
 
 .p3{
-padding-top: 10px;
-padding-left: 30px;
-color: #969595;
-margin-bottom: -5px;
+    padding-top: 10px;
+    padding-left: 30px;
+    color: #969595;
+    margin-bottom: -5px;
+
+
 }
+
 .p4{
 padding-top: 10px;
 padding-left: 10px;
 color: #969595;
-margin-bottom: -5px;
+    margin-bottom: -5px;
 }
+
+
 /********************** Şehrim sayfası*************************/
 
 
@@ -281,14 +288,69 @@ margin-bottom: -5px;
         font-size: 1em;
     }
 
+    /**********************Giriş formu*******************************/
   
+  
+
+.meee{
    
-   
-
-
-
-
-
     
- 
+    
+}
 
+.giriş-form {
+   background:  url(images/background.jpg) no-repeat ;
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    margin-left: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #fff;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.giriş-email {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #666;
+}
+
+button.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #0a49f6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+button.btn:hover {
+    background-color: #45a049;
+}
+
+p.liw {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+}
