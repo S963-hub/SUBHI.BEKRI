@@ -8,7 +8,7 @@
     <?php
     if (isset($_GET["email"])) {
         $email = $_GET["email"];
-        echo "<h1>Hoşgeldiniz $email! giriş işlemi başarılıdır.</h1>";
+        echo "<h1ld>Hoşgeiniz $email! giriş işlemi başarılıdır.</h1>";
         // İleri bir sayfaya yönlendirme yapabilirsiniz
     }
     ?>
